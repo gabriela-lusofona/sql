@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  database:
+    image: "postgres:latest"
+    container_name: ${CONTAINER_NAME:-database}
+    ports:
+      - "5432:5432"
+    expose:
+      - "5432"
+    environment:
+      POSTGRES_HOST: "localhost"
+      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_PORT: "5432"
+      POSTGRES_USER: "postgres"
+    volumes:
+      - ./data:/data:rw
