@@ -35,7 +35,7 @@ CREATE TABLE public.akas (
 );
 
 
-ALTER TABLE public.akas OWNER TO jovyan;
+--ALTER TABLE public.akas OWNER TO jovyan;
 
 --
 -- Name: crew; Type: TABLE; Schema: public; Owner: jovyan
@@ -49,7 +49,7 @@ CREATE TABLE public.crew (
 );
 
 
-ALTER TABLE public.crew OWNER TO jovyan;
+--ALTER TABLE public.crew OWNER TO jovyan;
 
 --
 -- Name: episodes; Type: TABLE; Schema: public; Owner: jovyan
@@ -63,7 +63,7 @@ CREATE TABLE public.episodes (
 );
 
 
-ALTER TABLE public.episodes OWNER TO jovyan;
+--ALTER TABLE public.episodes OWNER TO jovyan;
 
 --
 -- Name: people; Type: TABLE; Schema: public; Owner: jovyan
@@ -77,7 +77,7 @@ CREATE TABLE public.people (
 );
 
 
-ALTER TABLE public.people OWNER TO jovyan;
+--ALTER TABLE public.people OWNER TO jovyan;
 
 --
 -- Name: ratings; Type: TABLE; Schema: public; Owner: jovyan
@@ -90,7 +90,7 @@ CREATE TABLE public.ratings (
 );
 
 
-ALTER TABLE public.ratings OWNER TO jovyan;
+--ALTER TABLE public.ratings OWNER TO jovyan;
 
 --
 -- Name: titles; Type: TABLE; Schema: public; Owner: jovyan
@@ -109,7 +109,7 @@ CREATE TABLE public.titles (
 );
 
 
-ALTER TABLE public.titles OWNER TO jovyan;
+--ALTER TABLE public.titles OWNER TO jovyan;
 
 --
 -- Data for Name: akas; Type: TABLE DATA; Schema: public; Owner: jovyan
